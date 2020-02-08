@@ -26,8 +26,11 @@ padding-bottom: 40px;
 
 #conteudo{
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,237,238,0.7063200280112045) 14%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgb(18, 18, 19) 0%, 
+    rgba(48, 49, 49, 0.706) 14%,
+     rgb(21, 22, 22) 100%);
 width: 77%;
+
 }
 #conteudo img{
 border-radius: 40px;
@@ -42,39 +45,39 @@ margin-left: auto;
 #conteudo h1{
 
  text-align: center;
+ color:#eba62f ;
 
 }
-
 #conteudo h2{
-
+    color:#eba62f ;
     text-align: center;  
    
    }
-
-
    #conteudo ul{
-
+    color:#eba62f ;
     text-align: center;
       
    }
-
    #conteudo li{
-
+    color:#eba62f ;
     text-align: center;
     list-style-type: none;
-   
    }
    #conteudo p{
-
+    color:#eba62f;
     text-align: center;
-
-   
-   
+  
    }
    p > a {
-
+    color:#eba62f;
     text-align: center;
    
-   
+   }
+  
+  #conteudo ul > li> a {
+    color:#eba62f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     
    }
    
